@@ -1,16 +1,14 @@
 /* Verander de kleur van de titels */
 h5.color2 {
-    color: #007bff; /* Blauw */
-  }
-  /* Pas de tekstkleur van de iconen aan naar blauw */
+  color: #007bff; /* Blauw */
+}
+
+/* Pas de tekstkleur van de iconen aan naar blauw */
 .text-primary {
-    color: #007bff !important; /* Bootstrap blauw of een andere gewenste kleur */
-  }
-  
-  /* Optioneel: Pas de kleur van h5-titels aan als het nodig is */
-  h5 {
-    color: #007bff !important; /* Zorgt ervoor dat titels ook consistent blauw zijn */
-  }
-  
-  
-  }
+  color: #007bff !important; /* Bootstrap blauw of een andere gewenste kleur */
+}
+
+/* Optioneel: Pas de kleur van h5-titels aan als het nodig is */
+h5 {
+  color: #007bff !important; /* Zorgt ervoor dat titels ook consistent blauw zijn */
+}
