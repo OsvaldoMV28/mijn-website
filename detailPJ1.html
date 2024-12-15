@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project 1 - OMV IT + Services</title>
-  <link rel="stylesheet" href="css/reset.css">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
- 
+
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="home.html">OMV IT + Services</a>
@@ -18,84 +20,73 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Detailpagina's
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="detailPJ1.html">Project 1</a></li>
-              <li><a class="dropdown-item" href="detailPJ2.html">Project 2</a></li>
-              <li><a class="dropdown-item" href="detailPJ3.html">Project 3</a></li>
-              <li><a class="dropdown-item" href="detailPJ4.html">Project 4</a></li>
-              <li><a class="dropdown-item" href="detailPJ5.html">Project 5</a></li>
-              <li><a class="dropdown-item" href="detailPJ6.html">Project 6</a></li>
-            </ul>
-          </li>
-          
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  
 
-  
+  <!-- Hero Section -->
   <section class="position-relative d-flex align-items-center justify-content-center text-center" style="height: 300px; background-image: url('images/sfeerbeeld2.jpg'); background-size: cover; background-position: center;">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-25"></div>
     <div class="text-white position-relative">
-      <h1 class="display-4 fw-bold">Project 1</h1>
+      <h1 class="display-4 fw-bold">Virtualisatieplatform met Hyper-V</h1>
     </div>
   </section>
 
-  
+  <!-- Content Section -->
   <section class="py-5 bg-light">
     <div class="container">
       <div class="row g-4">
-        <div class="col-md-6 d-flex align-items-center justify-content-center">
-          <img src="https://osvaldomv28.github.io/mijn-website/images/homepage.jpg" alt="Foto 1" class="img-fluid">
-
+        <!-- Left Content -->
+        <div class="col-md-7">
+          <div class="p-4 border border-primary rounded shadow">
+            <h2 class="fw-bold text-primary">Netwerken</h2>
+            <p>
+              Dit project omvatte het opzetten van een volledig virtueel netwerk door middel van Hyper-V. Binnen deze omgeving werden meerdere virtuele machines geconfigureerd en beheerd, specifiek afgestemd op de behoeften van een klein bedrijf. De implementatie omvatte onder andere een Windows Server Domain Controller voor gebruikers- en toegangsbeheer, evenals een file-server voor veilige en efficiënte opslag en bestandsdeling.
+            </p>
+            <div class="text-center mt-4 mb-4">
+              <img src="images/homepage.jpg" alt="Netwerken Afbeelding" class="img-fluid rounded-circle shadow-lg" style="max-width: 80%;">
+              <p class="text-primary fw-bold mt-3">NETWERKEN</p>
+            </div>
+            
+          </div>
         </div>
-        <div class="col-md-6 d-flex align-items-center justify-content-center">
-          <img src="images/homepage2.jpg" alt="Foto 2" class="img-fluid">
+        <!-- Right Content -->
+        <div class="col-md-5">
+          <div class="p-4 border border-primary rounded shadow bg-white">
+            <h2 class="fw-bold text-primary">Andere Projecten</h2>
+            <p>
+              Ontdek meer projecten waarin IT-oplossingen zoals netwerkbeheer, virtualisatie en webdesign centraal staan. Klik hieronder om ons volledige portfolio te bekijken.
+            </p>
+            <div class="text-center mt-3">
+              <a href="portfolio.html" class="btn btn-primary text-white fw-bold">Bekijk Meer Projecten</a>
+            </div>
+          </div>
+       
+          <!-- Contact Box -->
+          <div class="p-3 mt-4 bg-primary text-white border rounded shadow">
+            <h4>Contact</h4>
+            <p><strong>POWER web</strong><br>powerweb@ap.be<br>+32 45 67 89</p>
+            <div>
+              <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
- 
-  <section class="py-5 bg-dark text-white">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-md-6">
-          <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Praesent volutpat neque at nisl tincidunt, nec vulputate ligula viverra.</p>
-        </div>
-        <div class="col-md-6">
-          <p class="p-3">Curabitur malesuada, justo a interdum dictum, metus orci tempor elit, ut eleifend mauris erat non libero. Nulla facilisi.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
- 
+  <!-- Footer -->
   <footer class="bg-primary text-white text-center py-4">
-    <p class="mb-1">&copy; 2024 OMV IT + Services</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Privacybeleid</a></li>
-      <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">LinkedIn</a></li>
-      <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">YouTube</a></li>
-    </ul>
+    <p class="mb-0">&copy; 2024 OMV IT + Services</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
